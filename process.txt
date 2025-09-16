@@ -5,3 +5,66 @@ Staging Area: Files are added here using git add to prepare them for a commit.
 Local Repository: Changes are saved here as commits using git commit, creating a history of your project.
 
 Remote Repository: This is a shared repository. 
+
+
+--------------------------------------------------------------
+ Git & GitHub Terminology Reference
+--------------------------------------------------------------
+
+Repository (Repo)        | A storage location for your project. It contains all your files, 
+                         | folders, and version history.
+
+Local Repository         | The version of the repository stored on your computer.
+
+Remote Repository        | A version of the repository hosted on a server (e.g., GitHub).
+
+Clone                    | Creating a copy of a remote repository on your local computer.
+
+Fork                     | A personal copy of someone else’s repository on GitHub. 
+                         | Lets you experiment without affecting the original.
+
+Commit                   | A snapshot of your changes. Think of it as saving progress.
+
+Stage / Staging Area     | A place where you prepare files before committing them.
+
+Branch                   | A parallel version of your project. Used to develop features 
+                         | independently from the main code.
+
+Main (or Master) Branch  | The default branch where production-ready code lives.
+
+Checkout                 | Switch to another branch or commit.
+
+Merge                    | Combine changes from one branch into another.
+
+Pull                     | Fetch and apply changes from a remote repository to your local one.
+
+Push                     | Send (upload) your commits from your local repository 
+                         | to the remote repository (e.g., GitHub).
+
+Pull Request (PR)        | A request to merge changes from one branch (or fork) into 
+                         | another. Often used in team collaboration.
+
+Origin                   | The default name given to a remote repository when you clone it.
+
+Upstream                 | The original repository from which you forked.
+
+HEAD                     | A pointer that represents the current branch or commit 
+                         | you are working on.
+
+Log                      | A history of commits in the repository.
+
+Diff                     | Shows the difference between two commits or changes.
+
+Stash                    | Temporarily saves changes without committing them, 
+                         | allowing you to work on something else.
+
+Conflict                 | Happens when Git cannot automatically merge changes, 
+                         | usually when two people edit the same line of code.
+
+. gitignore              | A file that tells Git which files/folders to ignore 
+                         | (e.g., temporary or system files).
+
+README.md                | A markdown file (displayed on GitHub) that explains 
+                         | the purpose and usage of a repository.
+
+--------------------------------------------------------------

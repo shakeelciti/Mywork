@@ -1,0 +1,47 @@
+--------------------------------------------------------------
+ Git Command                                   | Description
+--------------------------------------------------------------
+ git --version                                 | Check Git version
+ git config --global user.name "Your Name"     | Set Git username
+ git config --global user.email "your@email"   | Set Git email
+ git init                                      | Initialize a new Git repo in current folder
+ git clone https://github.com/user/repo.git    | Clone a repo from GitHub
+ git status                                    | Check the status of files (modified, staged, etc.)
+ git add filename                              | Stage a specific file
+ git add .                                     | Stage all files
+ git reset filename                            | Unstage a file
+ git commit -m "message"                       | Commit changes with a message
+ git branch                                    | List branches
+ git checkout -b branchname                    | Create and switch to a new branch
+ git checkout branchname                       | Switch branch
+ git pull origin main                          | Pull latest changes from remote
+ git push origin main                          | Push commits to GitHub (main branch)
+ git remote -v                                 | Show remote repositories linked
+ git log                                       | Show commit history
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+ Windows CMD Command                     | Description
+--------------------------------------------------------------
+ dir                                     | List files and directories in the current folder
+ cd foldername                           | Change directory to foldername
+ cd ..                                   | Move one directory up
+ cd \                                    | Go to the root of the current drive
+ cls                                     | Clear the screen
+ echo text                               | Print text to the screen
+ copy file1 file2                        | Copy file1 to file2
+ xcopy source dest /E                    | Copy folders and subfolders
+ move file1 folder\                      | Move file(s) to another folder
+ del filename                            | Delete a file
+ rmdir /S foldername                     | Delete a folder and its contents
+ mkdir foldername                        | Create a new folder
+ rename oldname newname                  | Rename a file or folder
+ type filename.txt                       | Display text file content
+ notepad filename.txt                    | Open or create a file in Notepad
+ tasklist                                | Show running processes
+ taskkill /IM processname.exe /F         | Kill a process
+ systeminfo                              | Show system details
+ ipconfig                                | Show network details
+ ping website.com                        | Check connection to a site
+--------------------------------------------------------------
+
