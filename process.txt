@@ -1,0 +1,7 @@
+Working Directory: This is where you make changes to your files.
+
+Staging Area: Files are added here using git add to prepare them for a commit.
+
+Local Repository: Changes are saved here as commits using git commit, creating a history of your project.
+
+Remote Repository: This is a shared repository. 
